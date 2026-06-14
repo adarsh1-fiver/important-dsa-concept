@@ -8,3 +8,20 @@ Integer.parseInt(op) = convert string → integer so it can be used in math and 
 //it also conv 
 Integer.valueOf(op) does
 Converts a String → Integer object
+
+//sum of digit
+int sum = 0;
+
+        while (num != 0) {
+            sum = sum + (num % 10); // Extract last digit
+            num = num / 10;         // Remove last digit
+        }
+
+//square of digit and sum
+
+        int sum = 0;
+
+        while (num != 0) {
+            int digit = num % 10;
+            sum += digit * digit;
+            num /= 10;
