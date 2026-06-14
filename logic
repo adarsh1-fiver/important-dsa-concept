@@ -25,3 +25,17 @@ int sum = 0;
             int digit = num % 10;
             sum += digit * digit;
             num /= 10;
+//linked list
+class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode(int val) {
+        this.val = val;
+    }
+}
+
+Most commonly used in interviews:
+
+ListNode(int val)
+ListNode(int val, ListNode next)
