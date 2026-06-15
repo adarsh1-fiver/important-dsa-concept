@@ -45,8 +45,36 @@ ListNode(int val, ListNode next)
 
 Creates a comparator that compares integers.
 
+public int compare(int[] a, int[] b) {
+This method compares two items a and b.
+Java's sorting methods call this repeatedly to determine ordering.
+
 Comparator.comparingInt(a -> a[1])
 
 means:
 
 Compare rows based on their second column values.
+
+
+Double.compare(a1, b1)
+
+would sort in ascending order.
+
+
+//int[][] items = new int[n][2];
+Line 3
+
+Creates a 2D array.
+
+n rows → one row per item.
+2 columns:
+Column 0 → value
+Column 1 → weight
+
+
+
+
+
+//items[i][0] = val[i]; 
+//items[0][1] = wt[0]
+            = 10
