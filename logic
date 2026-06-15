@@ -39,3 +39,14 @@ Most commonly used in interviews:
 
 ListNode(int val)
 ListNode(int val, ListNode next)
+
+
+//Comparator.comparingInt(...)
+
+Creates a comparator that compares integers.
+
+Comparator.comparingInt(a -> a[1])
+
+means:
+
+Compare rows based on their second column values.
