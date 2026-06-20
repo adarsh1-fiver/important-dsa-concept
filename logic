@@ -78,3 +78,7 @@ Column 1 → weight
 //items[i][0] = val[i]; 
 //items[0][1] = wt[0]
             = 10
+
+//2d array
+ int n = matrix.length;
+        int m = matrix[0].length;
