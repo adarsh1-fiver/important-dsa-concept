@@ -82,3 +82,12 @@ Column 1 → weight
 //2d array
  int n = matrix.length;
         int m = matrix[0].length;
+
+
+//Common PriorityQueue Methods
+Method	Purpose
+offer(x)	Insert x
+poll()	Remove and return the smallest element
+peek()	Return the smallest element without removing it
+size()	Number of elements
+isEmpty()	Checks if heap is empty
